@@ -1,0 +1,16 @@
+{application, mdnserl,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {mdnserl, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets
+   ]},
+  {env,[]},
+  {modules, []},
+  {maintainers, ["Gavin M. Roy"]},
+  {licenses, ["BSD"]},
+  {links, [{"Github", "https://github.com/gmr/mdnserl"}]}
+ ]}.
